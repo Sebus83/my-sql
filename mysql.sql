@@ -76,26 +76,7 @@
 -- SELECT firstname,lastname,email,id
 -- FROM users
 
-SELECT *
-FROM users
-INNER JOIN edusign ON users.id = edusign.user_id
 
--- -- Create table users
--- CREATE TABLE users (
---     id INTEGER PRIMARY KEY AUTOINCREMENT,
---     firstname TEXT NOT NULL,
---     lastname TEXT NOT NULL,
---     email TEXT NOT NULL
--- );
-
--- -- Create table edusign
-
--- CREATE TABLE edusign (
---     edu_id INTEGER PRIMARY KEY,
---     firstname TEXT NOT NULL,
---     lastname TEXT NOT NULL,
---     email TEXT NOT NULL,
---     created_at DATETIME NOT NULL,
---     user_id INTEGER,
---     FOREIGN KEY (user_id) REFERENCES users(id)
--- );
+-- SELECT *
+-- FROM users
+-- INNER JOIN edusign ON users.id = edusign.user_id
