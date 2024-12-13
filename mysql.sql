@@ -1,6 +1,6 @@
 
 -- PRAGMA foreign_keys = ON;
--- PRAGMA foreign_keys = ON;
+
 -- -- Create table users
 -- CREATE TABLE users (
 --     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -10,7 +10,6 @@
 -- );
 
 -- -- Create table edusign
-
 -- CREATE TABLE edusign (
 --     edu_id INTEGER PRIMARY KEY,
 --     firstname TEXT NOT NULL,
@@ -26,14 +25,11 @@
 
 -- --- Add some data to edusign
 -- INSERT INTO edusign (id, firstname, email, created_at) VALUES
---     (1, 'Ada', 'ada@codepassport.dev', '2024-09-08 09:30:00'),
 --     (2, 'Grace', 'grace@codepassport.dev', '2024-09-08 09:30:00'),
 --     (3, 'Dorothy', 'dorothy@codepassport.dev', '2024-09-08 09:30:00'),
 --     (4, 'Vi', 'vi@codepassport.dev', '2024-09-08 09:30:00'),
 --     (5, 'ella', 'ella@codepassport.dev', '2024-09-08 09:30:00'),
---     (6, 'Dorothy', 'dorothy@codepassport.dev', '2024-09-08 09:30:00'),
---     (7, 'Vi', 'vi@codepassport.dev', '2024-09-08 09:30:00'),
---     (8, 'ella', 'ella@codepassport.dev', '2024-09-08 09:30:00');
+
 
 -- --- Add some data to users
 -- INSERT INTO users (firstname, lastname, email) VALUES
@@ -53,14 +49,6 @@
 -- SELECT firstname FROM users
 -- INSERT INTO edusign VALUES (9,'Ada','ada@codepassport.dev','2024-05-30 09:30:00')
 -- SELECT * FROM edusign
-
--- DROP TABLE users;
-
--- CREATE TABLE users (
---  id INTEGER PRIMARY KEY AUTOINCREMENT,
---  firstname TEXT NOT NULL,
---  lastname TEXT NOT NULL,
---  email TEXT NOT NULL)
 
 -- INSERT INTO users (firstname, lastname, email) VALUES
 --     ('Ada', 'Lovelace', 'ada@test.fr'),
